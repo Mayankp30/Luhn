@@ -1,6 +1,6 @@
 "use strict";
 module.exports = (function () {
-	/*
+    /*
      * checkCreditCard - checks different conditions to verify if a credit card number is valid or not
      * @params  - {string} - s  
      * returns true if satisfies conditions, otherwise false
