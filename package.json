@@ -1,0 +1,19 @@
+{
+  "name": "luhn-algo",
+  "version": "1.0.0",
+  "description": "validation algorithm for checking credit cards",
+  "main": "./src/luhn",
+  "browser": "./src/luhn-min.js",
+  "engines": {
+    	"node": ">=0.6"
+  },
+  "scripts": {
+		"test": "mocha tests/luhn-tests.js -R spec"
+  },
+  "author": "mayankp",
+  "license": "ISC",
+  "devDependencies": {
+		"should" : "5.0.1",
+		"mocha": "2.1.0"
+  }
+}
