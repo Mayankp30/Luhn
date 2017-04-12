@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Validation Algorithm</title>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>      
+    <![endif]-->
+</head>
+<body>
+  <div id="content">
+    <h2>Luhn's Algorithm</h2>
+    <p> Luhn formula is a validation algorithm for credit cards.</p>
+    <form action="" method="post">
+      <p><b>Card Number:</b> <input name="cnumber" id="cnumber" type="text" size="18" maxlength="16" required />
+      <input class="button" type="submit" onclick="validateForm()" value="Submit" />
+      <input class="button" type="reset" value="Clear" /></p>
+    </form>
+  </div>
+  <script type="text/javascript" src="../src/scripts/jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="luhn.js"></script>
+</body>
+</html>
